@@ -1,0 +1,14 @@
+# secrets — never commit
+.env
+*.key
+
+# foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# node / frontend
+node_modules/
+web/dist/
+web/node_modules/
+.DS_Store
